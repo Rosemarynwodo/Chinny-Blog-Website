@@ -1,0 +1,51 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+/* Body Styles */
+body {
+  background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  /* text-align: center; */ /* Uncomment this line if needed */
+}
+
+/* Heading Styles */
+h2 {
+  color: maroon;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+/* Content Styles */
+#content {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid #212529;
+  background: #212529;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* User and ID Styles */
+.user, .id {
+  margin-left: 6px;
+  font-family: 'Lora', serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
